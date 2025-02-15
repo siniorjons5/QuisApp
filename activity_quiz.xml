@@ -1,0 +1,81 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/etUserName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="نام خود را وارد کنید"
+        android:textDirection="rtl"
+        android:gravity="right" />
+
+    <TextView
+        android:id="@+id/tvTimer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="زمان باقی‌مانده: 01:00"
+        android:textSize="18sp"
+        android:textDirection="rtl"
+        android:gravity="right" />
+
+    <TextView
+        android:id="@+id/tvQuestion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="سوال"
+        android:textSize="18sp"
+        android:textDirection="rtl"
+        android:gravity="right" />
+
+    <RadioGroup
+        android:id="@+id/radioGroup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textDirection="rtl"
+        android:gravity="right">
+
+        <RadioButton
+            android:id="@+id/radioButton1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="گزینه ۱"
+            android:textDirection="rtl"
+            android:gravity="right" />
+
+        <RadioButton
+            android:id="@+id/radioButton2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="گزینه ۲"
+            android:textDirection="rtl"
+            android:gravity="right" />
+
+        <RadioButton
+            android:id="@+id/radioButton3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="گزینه ۳"
+            android:textDirection="rtl"
+            android:gravity="right" />
+
+        <RadioButton
+            android:id="@+id/radioButton4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="گزینه ۴"
+            android:textDirection="rtl"
+            android:gravity="right" />
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/btnSubmit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ارسال پاسخ"
+        android:textDirection="rtl"
+        android:gravity="right" />
+
+</LinearLayout>
